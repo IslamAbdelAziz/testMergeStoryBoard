@@ -22,11 +22,17 @@
                                 <rect key="frame" x="117" y="139" width="141" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="firstVC"/>
+                                <connections>
+                                    <segue destination="v2y-Gr-C8g" kind="show" id="5NO-sp-qYE"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="avA-MA-kZA">
                                 <rect key="frame" x="117" y="266" width="141" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="secondVC"/>
+                                <connections>
+                                    <segue destination="i1x-Qj-AUp" kind="show" id="1Kf-FE-Nw4"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hQN-A5-N6b">
                                 <rect key="frame" x="117" y="384" width="141" height="30"/>
