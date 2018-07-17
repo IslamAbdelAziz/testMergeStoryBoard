@@ -34,6 +34,14 @@
                                     <segue destination="kvO-b6-T98" kind="show" id="KTm-sM-h6w"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9PA-Vc-yeI">
+                                <rect key="frame" x="104" y="429" width="166" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="cCJ-04-9JM" kind="show" id="kgZ-rv-w2r"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="vqf-d5-dZS"/>
@@ -72,6 +80,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mMu-5y-kpJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3800" y="-32"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Cpo-Qr-5qB">
+            <objects>
+                <viewController id="cCJ-04-9JM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rCI-DV-0rq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="b4R-KP-v44"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="u1O-nP-BkC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4894" y="-33"/>
         </scene>
     </scenes>
 </document>
