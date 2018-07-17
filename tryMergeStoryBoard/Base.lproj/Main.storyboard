@@ -19,11 +19,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gjW-ob-tgX">
-                                <rect key="frame" x="287" y="285" width="46" height="30"/>
+                                <rect key="frame" x="193" y="179" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
                                     <segue destination="L8q-8C-5Lj" kind="show" id="Dqd-yM-x7P"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yJp-EQ-l7Q">
+                                <rect key="frame" x="164" y="384" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="6Ar-AD-XiC" kind="show" id="OdN-wM-t4g"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -49,6 +57,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vTL-QK-5Eg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="857" y="-493"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="v12-Pa-jtz">
+            <objects>
+                <viewController id="6Ar-AD-XiC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Bns-YH-gNS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="U7I-MJ-U0U"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iTy-5C-YJ6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1782" y="-703"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="RXZ-7h-YVo">
